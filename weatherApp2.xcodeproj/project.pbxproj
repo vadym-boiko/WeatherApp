@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB0CD0652DD8936900F37AD1 /* DailyForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB0CD0642DD8936900F37AD1 /* DailyForecastCell.xib */; };
 		DB39FBF12DD7177B00F279FD /* DailyForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39FBF02DD7177B00F279FD /* DailyForecastCell.swift */; };
 		DB3A7AFE2DB27DF400BA557C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A7AFD2DB27DF400BA557C /* AppDelegate.swift */; };
 		DB3A7B002DB27DF400BA557C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A7AFF2DB27DF400BA557C /* SceneDelegate.swift */; };
@@ -21,11 +20,9 @@
 		DB4AAA012DB8013300963F6D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4AAA002DB8013300963F6D /* Protocols.swift */; };
 		DB6438C22DC117260030D8AD /* HourlyForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6438C12DC117260030D8AD /* HourlyForecastCell.swift */; };
 		DB6A32292DB685410083E0BB /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A32282DB685410083E0BB /* WeatherViewModel.swift */; };
-		DBF1E4D42DD8C2F300CEA39F /* HourlyForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF1E4D32DD8C2F300CEA39F /* HourlyForecastCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB0CD0642DD8936900F37AD1 /* DailyForecastCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailyForecastCell.xib; sourceTree = "<group>"; };
 		DB39FBF02DD7177B00F279FD /* DailyForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastCell.swift; sourceTree = "<group>"; };
 		DB3A7AFA2DB27DF400BA557C /* weatherApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3A7AFD2DB27DF400BA557C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +38,6 @@
 		DB4AAA002DB8013300963F6D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		DB6438C12DC117260030D8AD /* HourlyForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastCell.swift; sourceTree = "<group>"; };
 		DB6A32282DB685410083E0BB /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
-		DBF1E4D32DD8C2F300CEA39F /* HourlyForecastCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HourlyForecastCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +73,7 @@
 				DB3A7AFD2DB27DF400BA557C /* AppDelegate.swift */,
 				DB3A7AFF2DB27DF400BA557C /* SceneDelegate.swift */,
 				DB6438C12DC117260030D8AD /* HourlyForecastCell.swift */,
-				DBF1E4D32DD8C2F300CEA39F /* HourlyForecastCell.xib */,
 				DB39FBF02DD7177B00F279FD /* DailyForecastCell.swift */,
-				DB0CD0642DD8936900F37AD1 /* DailyForecastCell.xib */,
 				DB4AAA002DB8013300963F6D /* Protocols.swift */,
 				DB3A7B012DB27DF400BA557C /* ViewController.swift */,
 				DB6A32282DB685410083E0BB /* WeatherViewModel.swift */,
@@ -160,10 +154,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB0CD0652DD8936900F37AD1 /* DailyForecastCell.xib in Resources */,
 				DB3A7B0D2DB27DF500BA557C /* LaunchScreen.storyboard in Resources */,
 				DB3A7B0A2DB27DF500BA557C /* Assets.xcassets in Resources */,
-				DBF1E4D42DD8C2F300CEA39F /* HourlyForecastCell.xib in Resources */,
 				DB3A7B052DB27DF400BA557C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,9 +327,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = weatherApp2/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show accurate weather information.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -363,9 +357,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = weatherApp2/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show accurate weather information.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
