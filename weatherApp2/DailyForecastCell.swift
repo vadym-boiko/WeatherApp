@@ -5,8 +5,6 @@
 //  Created by VAD on 16.05.2025.
 //
 
-import Foundation
-import UIKit
 import UIKit
 
 class DailyForecastCell: UICollectionViewCell {

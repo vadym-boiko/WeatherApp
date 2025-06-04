@@ -164,8 +164,8 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycx-Wx-Pua">
-                                <rect key="frame" x="177" y="224" width="60.5" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycx-Wx-Pua">
+                                <rect key="frame" x="35" y="224" width="344" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -215,6 +215,7 @@
                             <constraint firstItem="j8t-bk-KMa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Psz-Ws-jpV"/>
                             <constraint firstItem="khq-en-WKy" firstAttribute="centerX" secondItem="j8t-bk-KMa" secondAttribute="centerX" id="U6c-gT-YAs"/>
                             <constraint firstAttribute="bottom" secondItem="khq-en-WKy" secondAttribute="bottom" id="Who-xb-Hxo"/>
+                            <constraint firstItem="ycx-Wx-Pua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="Xv4-1o-wvh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Cxa-DT-atS" secondAttribute="trailing" constant="40" id="YEa-R4-gjw"/>
                             <constraint firstItem="6vc-Uf-sTD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZIV-xB-2YO"/>
                             <constraint firstItem="Pja-js-VFV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="d9c-O6-sbz"/>
@@ -223,6 +224,7 @@
                             <constraint firstItem="nuJ-G4-oC4" firstAttribute="top" secondItem="WnE-FG-TRG" secondAttribute="bottom" constant="10" id="jq9-7n-QFh"/>
                             <constraint firstItem="6vc-Uf-sTD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oKL-yv-bZS"/>
                             <constraint firstItem="nuJ-G4-oC4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rfo-FO-laN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ycx-Wx-Pua" secondAttribute="trailing" constant="35" id="tso-bm-Jmk"/>
                             <constraint firstItem="nuJ-G4-oC4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vxl-33-QWE"/>
                             <constraint firstItem="WnE-FG-TRG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="x9B-2P-cAU"/>
                             <constraint firstItem="Cxa-DT-atS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="yEm-LC-QFY"/>
