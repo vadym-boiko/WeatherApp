@@ -21,7 +21,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="khq-en-WKy">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Cxa-DT-atS">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Cxa-DT-atS">
                                 <rect key="frame" x="40" y="298" width="334" height="44"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="tv3-Jv-Odf">
@@ -79,12 +79,6 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="9fy-la-6R6" firstAttribute="width" secondItem="cx3-sD-1ub" secondAttribute="width" id="LBd-Pt-qLi"/>
-                                    <constraint firstItem="9fy-la-6R6" firstAttribute="leading" secondItem="Cxa-DT-atS" secondAttribute="leading" constant="143" id="f0s-ZO-c9m"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="pFI-Mp-ho6"/>
-                                    <constraint firstItem="tv3-Jv-Odf" firstAttribute="width" secondItem="9fy-la-6R6" secondAttribute="width" multiplier="1.30935" id="vdi-ii-6K7"/>
-                                </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pja-js-VFV">
                                 <rect key="frame" x="120.5" y="104" width="173.5" height="100"/>
@@ -204,7 +198,7 @@
                             <constraint firstItem="Cxa-DT-atS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CSP-P1-NFg"/>
                             <constraint firstItem="WnE-FG-TRG" firstAttribute="top" secondItem="6vc-Uf-sTD" secondAttribute="bottom" constant="30" id="CeJ-bX-mib"/>
                             <constraint firstItem="ycx-Wx-Pua" firstAttribute="top" secondItem="Pja-js-VFV" secondAttribute="bottom" constant="20" id="Cvc-ie-Wj7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZUA-fj-gfL" secondAttribute="trailing" constant="40" id="D9E-IU-wn5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZUA-fj-gfL" secondAttribute="trailing" constant="20" id="D9E-IU-wn5"/>
                             <constraint firstItem="Pja-js-VFV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DMD-qo-Cwo"/>
                             <constraint firstItem="WnE-FG-TRG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dnc-8c-fLO"/>
                             <constraint firstItem="ycx-Wx-Pua" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HuS-fD-3Vr"/>
@@ -215,17 +209,17 @@
                             <constraint firstItem="j8t-bk-KMa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Psz-Ws-jpV"/>
                             <constraint firstItem="khq-en-WKy" firstAttribute="centerX" secondItem="j8t-bk-KMa" secondAttribute="centerX" id="U6c-gT-YAs"/>
                             <constraint firstAttribute="bottom" secondItem="khq-en-WKy" secondAttribute="bottom" id="Who-xb-Hxo"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Cxa-DT-atS" secondAttribute="trailing" constant="40" id="YEa-R4-gjw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cxa-DT-atS" secondAttribute="trailing" constant="20" id="YEa-R4-gjw"/>
                             <constraint firstItem="6vc-Uf-sTD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZIV-xB-2YO"/>
                             <constraint firstItem="Pja-js-VFV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="d9c-O6-sbz"/>
                             <constraint firstItem="Cxa-DT-atS" firstAttribute="top" secondItem="10W-hJ-Er4" secondAttribute="bottom" constant="18" id="dzp-Dd-Oby"/>
-                            <constraint firstItem="ZUA-fj-gfL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="jid-0g-yQh"/>
+                            <constraint firstItem="ZUA-fj-gfL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jid-0g-yQh"/>
                             <constraint firstItem="nuJ-G4-oC4" firstAttribute="top" secondItem="WnE-FG-TRG" secondAttribute="bottom" constant="10" id="jq9-7n-QFh"/>
                             <constraint firstItem="6vc-Uf-sTD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oKL-yv-bZS"/>
                             <constraint firstItem="nuJ-G4-oC4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rfo-FO-laN"/>
                             <constraint firstItem="nuJ-G4-oC4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vxl-33-QWE"/>
                             <constraint firstItem="WnE-FG-TRG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="x9B-2P-cAU"/>
-                            <constraint firstItem="Cxa-DT-atS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="yEm-LC-QFY"/>
+                            <constraint firstItem="Cxa-DT-atS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yEm-LC-QFY"/>
                             <constraint firstItem="j8t-bk-KMa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="yoA-sM-KGR"/>
                         </constraints>
                     </view>
