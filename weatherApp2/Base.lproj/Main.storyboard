@@ -79,12 +79,6 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="9fy-la-6R6" firstAttribute="width" secondItem="cx3-sD-1ub" secondAttribute="width" id="LBd-Pt-qLi"/>
-                                    <constraint firstItem="9fy-la-6R6" firstAttribute="leading" secondItem="Cxa-DT-atS" secondAttribute="leading" constant="143" id="f0s-ZO-c9m"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="pFI-Mp-ho6"/>
-                                    <constraint firstItem="tv3-Jv-Odf" firstAttribute="width" secondItem="9fy-la-6R6" secondAttribute="width" multiplier="1.30935" id="vdi-ii-6K7"/>
-                                </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pja-js-VFV">
                                 <rect key="frame" x="120.5" y="104" width="173.5" height="100"/>
