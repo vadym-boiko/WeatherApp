@@ -198,7 +198,7 @@
                             <constraint firstItem="Cxa-DT-atS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CSP-P1-NFg"/>
                             <constraint firstItem="WnE-FG-TRG" firstAttribute="top" secondItem="6vc-Uf-sTD" secondAttribute="bottom" constant="30" id="CeJ-bX-mib"/>
                             <constraint firstItem="ycx-Wx-Pua" firstAttribute="top" secondItem="Pja-js-VFV" secondAttribute="bottom" constant="20" id="Cvc-ie-Wj7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZUA-fj-gfL" secondAttribute="trailing" constant="40" id="D9E-IU-wn5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZUA-fj-gfL" secondAttribute="trailing" constant="20" id="D9E-IU-wn5"/>
                             <constraint firstItem="Pja-js-VFV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DMD-qo-Cwo"/>
                             <constraint firstItem="WnE-FG-TRG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dnc-8c-fLO"/>
                             <constraint firstItem="ycx-Wx-Pua" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HuS-fD-3Vr"/>
@@ -209,19 +209,20 @@
                             <constraint firstItem="j8t-bk-KMa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Psz-Ws-jpV"/>
                             <constraint firstItem="khq-en-WKy" firstAttribute="centerX" secondItem="j8t-bk-KMa" secondAttribute="centerX" id="U6c-gT-YAs"/>
                             <constraint firstAttribute="bottom" secondItem="khq-en-WKy" secondAttribute="bottom" id="Who-xb-Hxo"/>
-                            <constraint firstItem="ycx-Wx-Pua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="Xv4-1o-wvh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Cxa-DT-atS" secondAttribute="trailing" constant="40" id="YEa-R4-gjw"/>
+
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cxa-DT-atS" secondAttribute="trailing" constant="20" id="YEa-R4-gjw"/>
+
                             <constraint firstItem="6vc-Uf-sTD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZIV-xB-2YO"/>
                             <constraint firstItem="Pja-js-VFV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="d9c-O6-sbz"/>
                             <constraint firstItem="Cxa-DT-atS" firstAttribute="top" secondItem="10W-hJ-Er4" secondAttribute="bottom" constant="18" id="dzp-Dd-Oby"/>
-                            <constraint firstItem="ZUA-fj-gfL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="jid-0g-yQh"/>
+                            <constraint firstItem="ZUA-fj-gfL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jid-0g-yQh"/>
                             <constraint firstItem="nuJ-G4-oC4" firstAttribute="top" secondItem="WnE-FG-TRG" secondAttribute="bottom" constant="10" id="jq9-7n-QFh"/>
                             <constraint firstItem="6vc-Uf-sTD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oKL-yv-bZS"/>
                             <constraint firstItem="nuJ-G4-oC4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rfo-FO-laN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ycx-Wx-Pua" secondAttribute="trailing" constant="35" id="tso-bm-Jmk"/>
                             <constraint firstItem="nuJ-G4-oC4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vxl-33-QWE"/>
                             <constraint firstItem="WnE-FG-TRG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="x9B-2P-cAU"/>
-                            <constraint firstItem="Cxa-DT-atS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="yEm-LC-QFY"/>
+                            <constraint firstItem="Cxa-DT-atS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yEm-LC-QFY"/>
                             <constraint firstItem="j8t-bk-KMa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="yoA-sM-KGR"/>
                         </constraints>
                     </view>
