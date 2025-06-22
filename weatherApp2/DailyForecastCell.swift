@@ -128,7 +128,8 @@ class DailyForecastCell: UICollectionViewCell {
 
     private func formatToDayAndMonth(_ date: Date) -> String {
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "uk_UA")
+        // Format date using English locale
+        formatter.locale = Locale(identifier: "en_US")
         formatter.dateFormat = "dd/MM"
         return formatter.string(from: date)
     }

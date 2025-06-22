@@ -39,7 +39,8 @@ class HourlyForecastCell: UICollectionViewCell {
         tempLabel.textAlignment = .center
 
         iconImageView.contentMode = .scaleAspectFit
-        iconImageView.tintColor = .white // на всякий випадок для template rendering
+        // Tint image to support template rendering if needed
+        iconImageView.tintColor = .white
 
         stackView.axis = .vertical
         stackView.alignment = .center
@@ -89,7 +90,8 @@ class HourlyForecastCell: UICollectionViewCell {
     
     private func formatToHour(_ date: Date) -> String {
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "uk_UA")
+        // Use English locale for hour formatting
+        formatter.locale = Locale(identifier: "en_US")
         formatter.dateFormat = "HH:mm"
         return formatter.string(from: date)
     }

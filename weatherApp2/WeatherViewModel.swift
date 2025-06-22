@@ -30,8 +30,8 @@ class WeatherViewModel: NSObject, CLLocationManagerDelegate {
         let lat = location.coordinate.latitude
         let lon = location.coordinate.longitude
         
-        // отримуємо назву міста через зворотний геокодинг
-        let locale = Locale(identifier: "en_US") // англійська мова
+        // Retrieve city name using reverse geocoding
+        let locale = Locale(identifier: "en_US") // English language
         CLGeocoder().reverseGeocodeLocation(location, preferredLocale: locale) { placemarks, error in
             if let cityName = placemarks?.first?.locality {
                 self.city = cityName
@@ -50,7 +50,7 @@ class WeatherViewModel: NSObject, CLLocationManagerDelegate {
     func getData(completion: (() -> Void)? = nil) {
         NetworkManager.shared.fetchCoordinates(for: city) { [weak self] geocode in
             guard let self = self, let geocode = geocode else {
-                print("❌ Геокодинг не вдався")
+                print("❌ Geocoding failed")
                 return
             }
             self.getWeatherByCoordinates(lat: geocode.lat, lon: geocode.lon)
