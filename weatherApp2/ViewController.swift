@@ -43,14 +43,15 @@ class ViewController: UIViewController, WeatherViewModelProtocol {
         dailyForecastCollectionView.backgroundColor = .clear
         
     }
+    // Update UI with new weather data
 
     func didUpdateWeather(_ weather: OpenWeatherResponse) {
         currentTempLabel.text = String(format: "%.0f°C", weather.current.temp)
         humidityLabel.text = "\(weather.current.humidity)%"
-        windLabel.text = String(format: "%.0f м/с", weather.current.windSpeed)
+        windLabel.text = String(format: "%.0f m/s", weather.current.windSpeed)
         locationLabel.text = viewModel.city.capitalized
 
-        // ОПИС ПОГОДИ
+        // Weather description
         if let condition = weather.current.weather.first?.description {
             conditionTextLabel.text = condition.capitalized
         }

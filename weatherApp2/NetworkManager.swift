@@ -8,7 +8,7 @@ final class NetworkManager {
     
     private let apiKey = "acc871a3df33fd95bfd52ce972ab1052"
     
-    /// Геокодінг: місто → координати
+    /// Geocoding: city → coordinates
     func fetchCoordinates(for city: String, completion: @escaping (GeocodingResponse?) -> Void) {
         let cityEncoded = city.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? city
         let geocodingURL = "https://api.openweathermap.org/geo/1.0/direct?q=\(cityEncoded)&limit=1&appid=\(apiKey)"
@@ -36,7 +36,7 @@ final class NetworkManager {
         }.resume()
     }
     
-    /// Отримання погоди по координатах
+    /// Fetch weather by coordinates
     func fetchWeatherData(lat: Double, lon: Double, completion: @escaping (OpenWeatherResponse?) -> Void) {
         let weatherURL = "https://api.openweathermap.org/data/3.0/onecall?lat=\(lat)&lon=\(lon)&appid=\(apiKey)&units=metric&exclude=minutely,alerts&current=true&hourly=true&daily=true"
 
@@ -63,7 +63,7 @@ final class NetworkManager {
         }.resume()
     }
     
-    /// Завантаження зображення (іконки)
+    /// Download weather icon image
     func downloadImage(url: String, completion: @escaping (UIImage?) -> Void) {
         let fullUrlString = url.hasPrefix("http") ? url : "https:\(url)"
         
